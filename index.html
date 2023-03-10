@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>PT Tribintang Emas Mulia</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+    />
+    <link rel="stylesheet" href="style/style.css" />
+  </head>
+  <body>
+    <!-- awal -->
+    <h3 >PT Tribintang Emas Mulia</h3>
+    <hr />
+    <div class="container" id="p">
+      <h1>
+        Happy <br />
+        Birthday
+      </h1>
+      <p>Hope best for you</p>
+    </div>
+    <!-- ornamen lingkaran blur -->
+    <div class="circle-1"></div>
+    <div class="circle-2"></div>
+    <!-- kado dan nama -->
+    <div class="gift" id="gift">
+      <img class="top-gift" src="img/topg.png" width="300px" /><br />
+      <h2 id="output"></h2>
+      <img class="bottom-gift" src="img/botg.png" width="300px" /><br>
+    </div>
+    <!-- ornamen kertas kecil -->
+    <section>
+      <img class="papper p-1" src="img/papper/1.png" width="150px" />
+      <img class="papper p-2" src="img/papper/2.png" width="100px" />
+      <img class="papper p-3" src="img/papper/3.png" width="90px" />
+      <img class="papper p-4" src="img/papper/4.png" width="150px" />
+      <img class="papper p-5" src="img/papper/5.png" width="50px" />
+      <img class="papper p-6" src="img/papper/6.png" width="200px" />
+      <img class="papper p-7" src="img/papper/7.png" width="80px" />
+    </section>
+    <!-- akhir -->
+    <div class="login-box " id="form">
+      <form>
+      <div class="user-box">
+        <input type="text" id="input" required="" />
+      <label >Masukkan Nama</label>
+    </div>
+    <div class="user-box">
+      <input type="date" id="tgl" />
+      </div>
+        <a href="#" id="btn" onclick="showInput()">
+          <span></span>
+          <span></span>
+          <span></span>
+          <span></span>
+          Submit
+        </a>
+      </form>
+      </div>
+      <p id="output"></p>
+    </div>
+    <div class="mainbox" id="mainbox">
+      <div class="box" id="box">
+        <div class="box1">
+          <span class="font span1"><h5>TV</h5></span>
+          <span class="font span2"><h5>TV2</h5></span>
+          <span class="font span3"><h5>TV3</h5></span>
+          <span class="font span4"><h5>TV4</h5></span>
+          <span class="font span5"><h5>TV5</h5></span>
+        </div>
+        <div class="box2">
+          <span class="font span1"><h5>zonk</h5></span>
+          <span class="font span2"><h5>zonk2</h5></span>
+          <span class="font span3"><h5>zonk3</h5></span>
+          <span class="font span4"><h5>zonk4</h5></span>
+          <span class="font span5"><h5>zonk5</h5></span>
+        </div>
+      </div>
+      <button class="spin" onclick="spin()">SPIN</button>
+    </div>
+    <audio>controls="controls" id= "wheel"</audio>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="js/script.js"></script>
+  </body>
+</html>
